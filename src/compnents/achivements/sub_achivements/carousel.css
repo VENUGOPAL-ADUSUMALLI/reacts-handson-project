@@ -1,0 +1,22 @@
+.image_stying{
+     height:60vh;
+    width:1100px ;
+    padding :50px;
+    display: flex;
+    justify-content: center;
+}
+.Courserl_heading{
+    font-size: 30px;
+    color: black;
+    display:  flex;
+    justify-content: center;
+}
+.center-image{
+    display: flex;
+    justify-content: center;
+}
+.image_styling2{
+    height:50vh;
+    width: 1100px;
+    
+}

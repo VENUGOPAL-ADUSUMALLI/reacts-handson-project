@@ -1,0 +1,11 @@
+.background_style{
+    background-color: aliceblue;
+     display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image_stying{
+    height:60vh;
+    width:1050px ;
+    padding :50px;
+}

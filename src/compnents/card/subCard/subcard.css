@@ -1,0 +1,49 @@
+.Card {
+    height: 200px;
+    width: 350px;
+    background-color: aliceblue;
+    background-image: url("https://res.cloudinary.com/dpzpn3dkw/image/upload/v1729079766/jee_vd0eql.webp");
+    background-size: cover;          
+    background-position: center;   
+    border-radius: 10px;             
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+}
+.main_heading{
+    padding-top: 25px;
+    font-size: 30px;
+    padding-left: 25px;
+}
+.para{
+    color: blue;
+     padding: 15px;
+     text-decoration: none;
+     padding-top:65px;
+}   
+.Card1 {
+    height: 200px;
+    width: 350px;
+    background-color: aliceblue;
+    background-image: url("https://res.cloudinary.com/dpzpn3dkw/image/upload/v1729079856/U_neet_ngbo57.webp");
+    background-size: cover;          
+    background-position: center;   
+    border-radius: 10px;             
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+}
+.Card2 {
+    height: 200px;
+    width: 350px;
+    background-color: aliceblue;
+    background-image: url("https://res.cloudinary.com/dpzpn3dkw/image/upload/v1729079855/grade_6_10_ilhkeb.webp");
+    background-size: cover;          
+    background-position: center;   
+    border-radius: 10px;             
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 90px;
+   
+}

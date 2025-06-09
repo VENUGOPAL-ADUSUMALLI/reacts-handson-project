@@ -1,0 +1,10 @@
+.testimonial_container{
+    background-color: aliceblue;
+    height: 100vh;
+}
+.testimonial_heading{
+    font-size: 30px;
+    color: black;
+    padding-left: 200px;
+    padding-top: 50px;
+}
