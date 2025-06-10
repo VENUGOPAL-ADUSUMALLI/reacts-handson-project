@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 40px;
+  padding: 10px 40px 0;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   font-family: sans-serif;
@@ -21,6 +21,10 @@
   align-items: center;
   font-size: 16px;
   color: #222;
+}
+.Link_decoration{
+  text-decoration: none;
+  color: black;
 }
 
 

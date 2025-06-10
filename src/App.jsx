@@ -1,20 +1,26 @@
 import { useState } from 'react'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import Navabar from './compnents/navabar/Navbar'
-import Herobanner from './compnents/herobanner/herobanner'
-import MainCard from './compnents/card/subCard/mainCard'
-import Mainachivements from './compnents/achivements/sub_achivements/mainachivements'
-import MainTestiMonialPage from './compnents/testimonials/testimonials_cards/main_testimonial_page'
 import Footer from './footer/footer'
+import Home from './pages/Home';
+import JeeCoursesPage from './pages/JeeCoursesPage';
 function App(){
  return (
     <>
-       <Navabar/> 
-       <Herobanner/>
-       <MainCard/>
-       <Mainachivements/>
-       <MainTestiMonialPage/>
-       <Footer/>
+    <BrowserRouter>
+    <Navabar/>
+      
+     <Routes> 
+      <Route path='/' element ={<Home/>}/>
+      <Route path='courses' element={<JeeCoursesPage/>} />
+      <Route path='Testcourses' element={<JeeCoursesPage/>} />
+  
+       </Routes>
+        <Footer/>
+       </BrowserRouter>
+
     </>
   )
 }
