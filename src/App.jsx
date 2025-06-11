@@ -6,6 +6,8 @@ import Navabar from './compnents/navabar/Navbar'
 import Footer from './footer/footer'
 import Home from './pages/Home';
 import JeeCoursesPage from './pages/JeeCoursesPage';
+import TestSeries from './coursesPage/test_series';
+import ResultsPage from './coursesPage/ResultsPage';
 function App(){
  return (
     <>
@@ -15,8 +17,8 @@ function App(){
      <Routes> 
       <Route path='/' element ={<Home/>}/>
       <Route path='courses' element={<JeeCoursesPage/>} />
-      <Route path='Testcourses' element={<JeeCoursesPage/>} />
-  
+      <Route path='Testseries' element={<TestSeries/>} />
+      <Route path='Results' element= {<ResultsPage/>}/>
        </Routes>
         <Footer/>
        </BrowserRouter>

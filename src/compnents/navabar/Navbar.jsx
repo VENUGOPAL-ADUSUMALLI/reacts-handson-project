@@ -11,8 +11,8 @@ function Navabar() {
       </div>
       <div className="menu"> 
         <Link to="/courses" className='Link_decoration'> <h4>Courses</h4>  </Link>
-        <Link to="/Testcourses" className='Link_decoration'> <h4>Test Series</h4>  </Link>
-        <h4>Results</h4>
+        <Link to="/Testseries" className='Link_decoration'> <h4>Test Series</h4>  </Link>
+         <Link to="/Results" className='Link_decoration'> <h4>Results</h4>  </Link>
         <h4>Study Materials</h4> 
         <h4>Scholarships</h4> 
         <h4>Books</h4> 

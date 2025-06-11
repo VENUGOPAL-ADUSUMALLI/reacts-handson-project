@@ -1,0 +1,22 @@
+.results_align_image_center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.results-image-styling{    
+    width:1000px;
+    height: 307px;
+}
+.results_container{
+    height: 200vh;
+}
+.results-image2-styling{
+     width:1000px;
+    height: 907px;
+    padding-top: 50px;
+
+
+}
