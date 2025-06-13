@@ -15,8 +15,8 @@ function Navabar() {
          <Link to="/Results" className='Link_decoration'> <h4>Results</h4>  </Link>
         <h4>Study Materials</h4> 
         <h4>Scholarships</h4> 
-        <h4>Books</h4> 
-        <h4>More</h4> 
+        <h4>Books</h4>
+        <Link to="/More" className='Link_decoration'>  <h4>More</h4>   </Link> 
     </div>
     </div>
    

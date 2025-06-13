@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import JeeCoursesPage from './pages/JeeCoursesPage';
 import TestSeries from './coursesPage/test_series';
 import ResultsPage from './coursesPage/ResultsPage';
+import More from './coursesPage/MorePage';
 function App(){
  return (
     <>
@@ -19,6 +20,7 @@ function App(){
       <Route path='courses' element={<JeeCoursesPage/>} />
       <Route path='Testseries' element={<TestSeries/>} />
       <Route path='Results' element= {<ResultsPage/>}/>
+       <Route path='More' element= {<More/>}/>
        </Routes>
         <Footer/>
        </BrowserRouter>
