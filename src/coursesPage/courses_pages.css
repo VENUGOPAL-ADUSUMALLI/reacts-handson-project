@@ -25,10 +25,43 @@
     background-color: black;
     border-radius: 10px;
     color:white;
-    height: 20px;
+    height: 22px;
     width: 50px;
     text-align: center;
+    padding: 1px;
   
+  
+}
+.record_styling{
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    color:white;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    padding: 2px;
+  
+}
+.Online_styling{
+     font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    color:white;
+    height: 20px;
+    width: 130px;
+    text-align: center;
+    padding: 2px;
+}
+.practise_styling{
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    color:white;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    padding: 2px;
 }
 .live_contianer{
     padding-top: 1px;
@@ -87,4 +120,97 @@
     justify-content: center;
     padding-top: 100px;
     padding-left:70px ;
+}
+.button-group {
+  display: flex;
+  gap: 12px;
+  background-color: #f1f5f9; /* light background */
+  padding-top: 32px;
+  padding-left: 210px;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  transition: background-color 0.2s ease;
+}
+
+.filters-button {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #374151;
+}
+
+.filters-button:hover {
+  background-color: #f9fafb;
+}
+
+.dropdown-button {
+  background-color: #e0edff;
+  border: 1px solid #2563eb;
+  color: #1d4ed8;
+}
+
+.dropdown-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>');
+}
+
+.option-button {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  color: #1f2937;
+}
+
+.option-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* Reusable icon class */
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Specific icons */
+.filter-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h4M3 6h4m0 8H3m14 0h4m0-4h-4m4-4h-4M10 6h4m0 4h-4m4 4h-4"/></svg>');
+}
+
+.live-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14m-6 0h1m-3-4h1m0 0h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>');
+}
+
+.recorded-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>');
+}
+
+.test-series-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M16 3H5a2 2 0 00-2 2v14a2 2 0 002 2h11m3-10l-4 4m0 0l-4-4m4 4V4"/></svg>');
+}
+
+.scholarship-tag{
+     position: absolute;
+  top: 12px;
+  right: 0;
+  background-color: #ff6b00;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-family: sans-serif;
+  z-index: 1;
 }

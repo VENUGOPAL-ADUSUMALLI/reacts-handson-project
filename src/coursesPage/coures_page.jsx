@@ -6,6 +6,35 @@ function CoursesPage() {
         <div className='courses_pages_container'>
             <div> 
                 <h1 className='courses_page_heading'> JEE courses for Class 12th </h1>
+                <div>
+                  <div class="button-group">
+                    <button class="filters-button">
+                      <span class="icon filter-icon"></span>
+                      Filters
+                    </button>
+
+                    <button class="dropdown-button">
+                      Session: 2025–26
+                      <span class="icon dropdown-icon"></span>
+                    </button>
+
+                      <button class="option-button">
+                        <span class="icon live-icon"></span>
+                        Live
+                      </button>
+
+                      <button class="option-button">
+                        <span class="icon recorded-icon"></span>
+                        Recorded
+                      </button>
+
+                      <button class="option-button">Practice</button>
+
+                      <button class="option-button">
+                        <span class="icon test-series-icon"></span>
+                        ONLINE TEST SERIES
+                      </button></div>
+                </div>
             </div>
            <div>
             <h2 className='courses_live_online_coruses_heading'> Live Online Courses</h2>
@@ -30,7 +59,7 @@ function CoursesPage() {
            <div>
              <div> 
                <div>
-            <h2 className='courses_live_online_coruses_heading'> Live Online Courses</h2>
+            <h2 className='courses_live_online_coruses_heading'> Self Study Courses</h2>
             <hr className='custom_line_styling'/>
                 </div>
                 <div> 
@@ -38,7 +67,7 @@ function CoursesPage() {
                      <div className='card_styling_container'>
 
                 <div className='live_contianer'>
-                <p className='Live_styling'> Live</p>
+                <p className='record_styling'> Recorded</p>
                 <h4> JEE Enthusiast Online Course</h4>
                 <h4 className='Live_styling_target'> Target 2026 </h4>
                 <p> Live classes from ALLEN Kota's faculty</p>
@@ -52,9 +81,8 @@ function CoursesPage() {
                 </div>
                     </div>
                     <div className='card_styling_container2'>
-
                 <div className='live_contianer'>
-                <p className='Live_styling'> Live</p>
+                <p className='record_styling'>Recorded </p>
                 <h4> JEE Enthusiast Online Course</h4>
                 <h4 className='Live_styling_target'> Target 2026 </h4>
                 <p> Live classes from ALLEN Kota's faculty</p>
@@ -74,7 +102,7 @@ function CoursesPage() {
            <div>
              <div> 
                <div>
-            <h2 className='courses_live_online_coruses_heading'> Live Online Courses</h2>
+            <h2 className='courses_live_online_coruses_heading'> Test Series - JEE (Main + Advanced)</h2>
             <hr className='custom_line_styling'/>
                 </div>
                 <div> 
@@ -82,7 +110,7 @@ function CoursesPage() {
                      <div className='card_styling_container'>
 
                 <div className='live_contianer'>
-                <p className='Live_styling'> Live</p>
+                <p className='Online_styling'> Online Test Series</p>
                 <h4> JEE Enthusiast Online Course</h4>
                 <h4 className='Live_styling_target'> Target 2026 </h4>
                 <p> Live classes from ALLEN Kota's faculty</p>
@@ -98,7 +126,7 @@ function CoursesPage() {
                     <div className='card_styling_container2'>
 
                 <div className='live_contianer'>
-                <p className='Live_styling'> Live</p>
+                <p className='Online_styling'> Online Test Series</p>
                 <h4> JEE Enthusiast Online Course</h4>
                 <h4 className='Live_styling_target'> Target 2026 </h4>
                 <p> Live classes from ALLEN Kota's faculty</p>
@@ -118,7 +146,7 @@ function CoursesPage() {
            <div>
              <div> 
                <div>
-            <h2 className='courses_live_online_coruses_heading'> Live Online Courses</h2>
+            <h2 className='courses_live_online_coruses_heading'>Test Series - JEE (Main)</h2>
             <hr className='custom_line_styling'/>
                 </div>
                 <div> 
@@ -126,7 +154,7 @@ function CoursesPage() {
                      <div className='card_styling_container'>
 
                 <div className='live_contianer'>
-                <p className='Live_styling'> Live</p>
+                <p className='Online_styling'> Online Test Series</p>
                 <h4> JEE Enthusiast Online Course</h4>
                 <h4 className='Live_styling_target'> Target 2026 </h4>
                 <p> Live classes from ALLEN Kota's faculty</p>
@@ -142,7 +170,7 @@ function CoursesPage() {
                     <div className='card_styling_container2'>
 
                 <div className='live_contianer'>
-                <p className='Live_styling'> Live</p>
+                <p className='Online_styling'> Online Test Series</p>
                 <h4> JEE Enthusiast Online Course</h4>
                 <h4 className='Live_styling_target'> Target 2026 </h4>
                 <p> Live classes from ALLEN Kota's faculty</p>
@@ -160,13 +188,13 @@ function CoursesPage() {
              </div>
            </div>
            <div>
-            <h2 className='courses_live_online_coruses_heading'> Live Online Courses</h2>
+            <h2 className='courses_live_online_coruses_heading'> Practice Package</h2>
             <hr className='custom_line_styling'/>
            </div>
            <div className='card_styling_container'>
 
                 <div className='live_contianer'>
-                <p className='Live_styling'> Live</p>
+                <p className='practise_styling'> Practice</p>
                 <h4> JEE Enthusiast Online Course</h4>
                 <h4 className='Live_styling_target'> Target 2026 </h4>
                 <p> Live classes from ALLEN Kota's faculty</p>

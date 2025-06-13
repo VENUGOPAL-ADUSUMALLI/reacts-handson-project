@@ -11,6 +11,35 @@ function TestSeries() {
            <div> 
                 <h1 className='courses_page_heading'> JEE courses for Class 12th </h1>
             </div>
+             <div>
+                  <div class="button-group">
+                    <button class="filters-button">
+                      <span class="icon filter-icon"></span>
+                      Filters
+                    </button>
+
+                    <button class="dropdown-button">
+                      Session: 2025–26
+                      <span class="icon dropdown-icon"></span>
+                    </button>
+
+                      <button class="option-button">
+                        <span class="icon live-icon"></span>
+                        Live
+                      </button>
+
+                      <button class="option-button">
+                        <span class="icon recorded-icon"></span>
+                        Recorded
+                      </button>
+
+                      <button class="option-button">Practice</button>
+
+                      <button class="option-button">
+                        <span class="icon test-series-icon"></span>
+                        ONLINE TEST SERIES
+                      </button></div>
+                </div>
             <div>
             <h2 className='courses_live_online_coruses_heading'>Test Series - JEE (Main)</h2>
             <hr className='custom_line_styling'/>

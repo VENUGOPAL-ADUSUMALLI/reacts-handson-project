@@ -11,12 +11,56 @@
     height: 307px;
 }
 .results_container{
-    height: 200vh;
+    height: 500vh;
 }
 .results-image2-styling{
-     width:1000px;
+    width:1000px;
     height: 907px;
     padding-top: 50px;
+}
+.Results_main_heading{
+    color:blue;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+    padding-top: 30px;
+}
+.Results_heading_container{
+    display: flex;
+    flex-direction: row;
+    justify-self:center;
+}
+.Winning_image_styling{
+    width:1000px;
+}
+.winnig_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+}
+.Toppers_container{
+    display: flex;
+    flex-direction: row;
+    justify-self:center;
+    padding-top: 30px;
+}
+.Toppers_haeading{
+    color: #000;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.video-wrapper {
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+}
 
-
+.promo-video {
+  width: 350px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
